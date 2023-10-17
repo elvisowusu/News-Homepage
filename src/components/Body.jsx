@@ -9,12 +9,12 @@ export default function Body (){
 
 
     return(
-        <div className="">
+        <div className="w-[150vh]">
             <section>
                 {/* {leftside} */}
                 <div>
                     {/* {top} */}
-                    <img src={desktopImg} alt="" />
+                    <img src={desktopImg} alt="" height={100} width={200}/>
 
                     {/* {bottom} */}
                     <div className="flex justify-evenly">

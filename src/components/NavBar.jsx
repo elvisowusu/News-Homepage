@@ -3,7 +3,7 @@ import logo from '../assets/logo.svg'
 
 export default function NavBar (){
     return(
-    <nav className="flex items-center justify-between">
+    <nav className="flex items-center justify-between w-[150vh] mb-12">
         <img src={logo} alt="" />
 
         <ul className="flex items-center gap-2">
