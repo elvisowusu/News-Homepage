@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import logo from '../assets/logo.svg'
 import {VscMenu} from 'react-icons/vsc'
+import {AiOutlineClose} from 'react-icons/ai'
 
 export default function NavBar (){
     const [screenWidth,setScreenWidth]=useState(window.innerWidth);
