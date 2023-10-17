@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React from 'react'
 import NavBar from './components/NavBar'
 import Body from './components/Body'
 import './App.css'
@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <div className='bg-red-500'>
+    <div className='font-Inter h-[100vh] flex flex-col justify-center items-center'>
       <NavBar/>
       <Body/>
     </div>
