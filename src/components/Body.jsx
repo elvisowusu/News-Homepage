@@ -11,18 +11,21 @@ export default function Body (){
     return(
         <div className="xl:w-[150vh]">
             <section className="sm:flex">
-                {/* {leftside} */}
+                
                 <div className="flex flex-col items-center">
-                    {/* {top} */}
-                    <img className="w-full" src={screenWidth < 641?mobileImg: desktopImg} alt="" />
+                    
+                    <img 
+                        className="w-full" 
+                        src={screenWidth < 641?mobileImg: desktopImg} alt="" 
+                    />
 
-                    {/* {bottom} */}
-                    <div className="sm:flex sm:justify-evenly">
-                        {/* {leftside} */}
-                        <h1>The Bright Future of Web 3.0?</h1>
+                    <div className="sm:flex sm:justify-evenly mt-6">
                         
-                        {/* {rightside} */}
-                        <div>
+                        <h1 className="font-extrabold text-veryDarkBlue text-[2.5rem] leading-[2.5rem]">
+                            The Bright Future of Web 3.0?
+                        </h1>
+                        
+                        <div className="mt-4">
                             <p>We dive into the next evolution of the web that 
                              claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                             </p>
@@ -33,7 +36,7 @@ export default function Body (){
                     </div>
                 </div>
 
-                {/* {rightSide} */}
+                
                 <div className="bg-veryDarkBlue">
                     <h1 className="text-softOrange">New</h1>
                     <div>
