@@ -5,15 +5,16 @@ import gamingImg from '../assets/image-gaming-growth.jpg'
 import retroImg from '../assets/image-retro-pcs.jpg'
 import laptopImg from '../assets/image-top-laptops.jpg'
 
-export default function Body (screenWidth,setScreenWidth){
+export default function Body (){
+    const [screenWidth,setScreenWidth]=useState(window.innerWidth);
 
     return(
         <div className="xl:w-[150vh]">
             <section className="sm:flex">
                 {/* {leftside} */}
-                <div>
+                <div className="flex flex-col items-center">
                     {/* {top} */}
-                    <img src={screenWidth<641?mobileImg: desktopImg} alt="" />
+                    <img className="w-full" src={screenWidth < 641?mobileImg: desktopImg} alt="" />
 
                     {/* {bottom} */}
                     <div className="sm:flex sm:justify-evenly">

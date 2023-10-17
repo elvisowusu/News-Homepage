@@ -1,10 +1,12 @@
-import React from "react";
+import React,{useState} from "react";
 import logo from '../assets/logo.svg'
 import {IoMenuSharp} from 'react-icons/io5'
 
-export default function NavBar (screenWidth,setScreenWidth){
+export default function NavBar (){
+    const [screenWidth,setScreenWidth]=useState(window.innerWidth);
+
     return(
-    <nav className="flex items-center justify-between xl:w-[150vh] mb-12">
+    <nav className="flex items-center justify-between mb-12 w-full">
         <img src={logo} alt="" />
 
         {screenWidth < 641?

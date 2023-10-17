@@ -8,7 +8,7 @@ function App() {
   
 
   return (
-    <div className='sm:bg-pink-300 font-Inter h-[100vh] flex flex-col justify-center items-center'>
+    <div className='sm:bg-pink-300 font-Inter md:h-[100vh] flex flex-col justify-center items-center'>
       <NavBar screenWidth={screenWidth} setScreenWidth={setScreenWidth}/>
       <Body screenWidth={screenWidth} setScreenWidth={setScreenWidth}/>
     </div>
