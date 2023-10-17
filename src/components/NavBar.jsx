@@ -1,11 +1,13 @@
 import React from "react";
-
+import logo from '../assets/logo.svg'
 
 export default function NavBar (){
     return(
         <div className="text-6 bg-blue-700">
             <nav>
-
+                <div>
+                    <img src={logo} alt="" />
+                </div>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">New</a></li>
