@@ -1,23 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import desktopImg from '../assets/image-web-3-desktop.jpg'
 import mobileImg from '../assets/image-web-3-mobile.jpg'
 import gamingImg from '../assets/image-gaming-growth.jpg'
 import retroImg from '../assets/image-retro-pcs.jpg'
 import laptopImg from '../assets/image-top-laptops.jpg'
 
-export default function Body (){
-
+export default function Body (screenWidth,setScreenWidth){
 
     return(
-        <div className="w-[150vh]">
-            <section className="flex">
+        <div className="xl:w-[150vh]">
+            <section className="sm:flex">
                 {/* {leftside} */}
                 <div>
                     {/* {top} */}
-                    <img src={desktopImg} alt="" height={100} width={200}/>
+                    <img src={screenWidth<641?mobileImg: desktopImg} alt="" />
 
                     {/* {bottom} */}
-                    <div className="flex justify-evenly">
+                    <div className="sm:flex sm:justify-evenly">
                         {/* {leftside} */}
                         <h1>The Bright Future of Web 3.0?</h1>
                         
