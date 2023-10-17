@@ -6,7 +6,7 @@ export default function NavBar (){
     <nav className="flex items-center justify-between w-[150vh] mb-12">
         <img src={logo} alt="" />
 
-        <ul className="flex items-center gap-2">
+        <ul className="flex items-center gap-10">
             <li><a href="">Home</a></li>
             <li><a href="">New</a></li>
             <li><a href="">Popular</a></li>

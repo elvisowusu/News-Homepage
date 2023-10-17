@@ -10,7 +10,7 @@ export default function Body (){
 
     return(
         <div className="w-[150vh]">
-            <section>
+            <section className="flex">
                 {/* {leftside} */}
                 <div>
                     {/* {top} */}
@@ -34,8 +34,8 @@ export default function Body (){
                 </div>
 
                 {/* {rightSide} */}
-                <div>
-                    <h1>New</h1>
+                <div className="bg-veryDarkBlue">
+                    <h1 className="text">New</h1>
                     <div>
                         <h3>Hydrogen VS Electric Cars</h3>
                         <p>
