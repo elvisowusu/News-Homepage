@@ -6,16 +6,16 @@ export default function NavBar (){
     const [screenWidth,setScreenWidth]=useState(window.innerWidth);
 
     return(
-    <nav className="flex items-center justify-between mb-12 w-full">
+    <nav className="flex items-center justify-between mb-8 w-full">
         <img 
-            className="h-8"
+            className="h-7"
             src={logo}
             alt="" 
         />
 
         {screenWidth < 641?
            
-                <VscMenu className="w-[2rem] h-[2rem]"/>
+                <VscMenu className="w-[2rem] h-[2rem] font-extrabold"/>
             :
 
             <ul className="flex items-center gap-10 text-darkGrayishBlue">
