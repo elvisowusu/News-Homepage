@@ -3,7 +3,7 @@ import React from "react";
 
 export default function NavBar (){
     return(
-        <div>
+        <div className="text-6">
             navbar
         </div>
     )
