@@ -30,7 +30,7 @@ export default function Body (){
                 <div className="flex flex-col items-center">
                     
                     <img 
-                        className={`w-full sm:h-[20rem] md:h-auto`}
+                        className={`w-full sm:h-[20rem] md:h-[auto]`}
                         src={screenWidth < 640?mobileImg: desktopImg} alt="" 
                     />
 
@@ -55,7 +55,7 @@ export default function Body (){
                 
                 <div className="bg-veryDarkBlue mt-[4rem] md:mt-0 p-4 font-semibold ml-[1.2rem] md:w-[61rem]">
                     <h1 className="text-softOrange text-[2rem] font-semibold mb-6">New</h1>
-                    <div className="mb-7">
+                    <div className="mb-">
                         <h3 className="text-offWhite transition ease-in duration-150 hover:text-softOrange cursor-pointer text-[1.36rem] mb-1">Hydrogen VS Electric Cars</h3>
                         <p className="text-darkGrayishBlue font-medium leading-[1.8rem]">
                             Will hydrogen-fueled cars ever catch up to EVs?
