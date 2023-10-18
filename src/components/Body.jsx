@@ -36,7 +36,7 @@ export default function Body (){
 
                     <div className="md:flex md:justify-evenly mt-7">
                         
-                        <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] leading-[2.7rem]">
+                        <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] sm:text-[3.3rem] leading-[2.7rem] sm:leading-[3.8rem]">
                             The Bright Future of Web 3.0?
                         </h1>
                         
