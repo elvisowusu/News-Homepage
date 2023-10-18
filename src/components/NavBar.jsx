@@ -32,7 +32,7 @@ export default function NavBar (){
             alt="logo"
         />
 
-        {screenWidth < 641?
+        {screenWidth < 640?
                     <>{toggle?
                         <AiOutlineClose 
                             className={`z-20 w-[2rem] h-[2rem] fixed right-5`}

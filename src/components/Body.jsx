@@ -31,7 +31,7 @@ export default function Body (){
                     
                     <img 
                         className="w-full" 
-                        src={screenWidth < 641?mobileImg: desktopImg} alt="" 
+                        src={screenWidth < 640?mobileImg: desktopImg} alt="" 
                     />
 
                     <div className="md:flex md:justify-evenly mt-7">
