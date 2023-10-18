@@ -30,7 +30,7 @@ export default function Body (){
                                 We dive into the next evolution of the web that 
                                 claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                             </p>
-                            <button className="bg-softRed text-offWhite text-xs font-bold w-[10.5rem] py-[0.7rem] mt-5 tracking-[0.2rem]">
+                            <button className="bg-softRed text-offWhite text-xs font-bold w-[11.5rem] py-[1.2rem] mt-5 tracking-[0.4rem]">
                                 READ MORE
                             </button>
                         </div>
