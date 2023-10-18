@@ -10,7 +10,7 @@ export default function Body (){
 
     return(
         <div className="xl:w-[150vh]">
-            <section className="mb-[4.5rem] sm:flex">
+            <section className="mb-[4.5rem] md:flex">
                 
                 <div className="flex flex-col items-center">
                     
@@ -19,7 +19,7 @@ export default function Body (){
                         src={screenWidth < 641?mobileImg: desktopImg} alt="" 
                     />
 
-                    <div className="sm:flex sm:justify-evenly mt-7">
+                    <div className="md:flex md:justify-evenly mt-7">
                         
                         <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] leading-[2.7rem]">
                             The Bright Future of Web 3.0?
