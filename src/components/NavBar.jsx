@@ -2,7 +2,8 @@ import React,{useEffect, useState} from "react";
 import logo from '../assets/logo.svg'
 import {VscMenu} from 'react-icons/vsc'
 import {AiOutlineClose} from 'react-icons/ai'
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function NavBar (){
     const [screenWidth,setScreenWidth]=useState(window.innerWidth);
@@ -13,6 +14,7 @@ export default function NavBar (){
     }
 
     useEffect(()=>{
+        AOS.init();
         const handleResize =()=>{
             setScreenWidth(window.innerWidth);
         }
