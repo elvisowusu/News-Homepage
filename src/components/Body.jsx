@@ -80,7 +80,7 @@ export default function Body (){
             </section>
 
             <section>
-                <div data-aos='fade-up' data-aos-duration='800' className="flex mb-[3rem]">
+                <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem]">
                     <img src={retroImg} alt="" width={105}/>
                     <div className="ml-6">
                         <h1 className="text-grayishBlue font-bold text-[2rem] ">01</h1>
@@ -89,7 +89,7 @@ export default function Body (){
                     </div>
                 </div>
 
-                <div data-aos='fade-up' data-aos-duration='800' className="flex mb-[3rem]">
+                <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem]">
                     <img src={laptopImg} alt="" width={105}/>
                     <div className="ml-6">
                         <h1 className="text-grayishBlue font-bold text-[2rem]">02</h1>
@@ -98,7 +98,7 @@ export default function Body (){
                     </div>
                 </div>
 
-                <div data-aos='fade-up' data-aos-duration='800' className="flex mb-[3rem]">
+                <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem]">
                     <img src={gamingImg} alt="" width={105}/>
                     <div className="ml-6">
                         <h1 className="text-grayishBlue font-bold text-[2rem]">03</h1>
