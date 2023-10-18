@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import desktopImg from '../assets/image-web-3-desktop.jpg'
 import mobileImg from '../assets/image-web-3-mobile.jpg'
 import gamingImg from '../assets/image-gaming-growth.jpg'
@@ -7,6 +7,18 @@ import laptopImg from '../assets/image-top-laptops.jpg'
 
 export default function Body (){
     const [screenWidth,setScreenWidth]=useState(window.innerWidth);
+    useEffect(()=>{
+        const handleResize =()=>{
+            setScreenWidth(window.innerWidth);
+        }
+        // Attaching the event listener for window resize
+        window.addEventListener('resize',handleResize);
+
+        //clean up the event listener when the component unmounts 
+        return ()=>{
+            window.removeEventListener('resize',handleResize);
+        } 
+    },[])// empty dependency runs the effect only once on mount and cleans up on unmount
 
     return(
         <div className="xl:w-[150vh]">
