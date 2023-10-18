@@ -5,18 +5,33 @@ import {AiOutlineClose} from 'react-icons/ai'
 
 export default function NavBar (){
     const [screenWidth,setScreenWidth]=useState(window.innerWidth);
+    const [toggle,setToggle] = useState(false);
+
+    const handleClicked=()=>{
+        setToggle(!toggle);
+    }
 
     return(
     <nav className="flex items-center justify-between mb-8 w-full">
         <img 
             className="h-7"
             src={logo}
-            alt="" 
+            alt="logo"
         />
 
         {screenWidth < 641?
-           
-                <VscMenu className="w-[2rem] h-[2rem] font-extrabold"/>
+                    <>{toggle?
+                        <AiOutlineClose 
+                            className="w-[2rem] h-[2rem]"
+                            
+                        />
+                        :
+                        <VscMenu 
+                            className="w-[2rem] h-[2rem]"
+                            onClick={handleClicked}
+                        />
+                    }  
+                    </>
             :
 
             <ul className="flex items-center gap-10 text-darkGrayishBlue">
