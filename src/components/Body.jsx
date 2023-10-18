@@ -27,16 +27,16 @@ export default function Body (){
         <div className="xl:w-[150vh]">
             <section className="mb-[4.5rem] md:flex">
                 
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col items-center ">
                     
                     <img 
                         className={`w-full sm:h-[20rem] md:h-auto`}
                         src={screenWidth < 640?mobileImg: desktopImg} alt="" 
                     />
 
-                    <div className="md:flex md:justify-evenly mt-7">
+                    <div className="md:flex md:justify-center md:items-center mt-7 ">
                         
-                        <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] sm:text-[3.3rem] leading-[2.7rem] sm:leading-[3.8rem]">
+                        <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] sm:text-[3.3rem] md:text-[2.8rem] leading-[2.7rem] sm:leading-[3.8rem] md:leading-[2.7rem]">
                             The Bright Future of Web 3.0?
                         </h1>
                         
@@ -53,7 +53,7 @@ export default function Body (){
                 </div>
 
                 
-                <div className="bg-veryDarkBlue mt-[4rem] p-4 font-semibold">
+                <div className="bg-veryDarkBlue mt-[4rem] md:mt-0 p-4 font-semibold">
                     <h1 className="text-softOrange text-[2rem] font-semibold mb-6">New</h1>
                     <div className="mb-7">
                         <h3 className="text-offWhite transition ease-in duration-150 hover:text-softOrange cursor-pointer text-[1.36rem] mb-1">Hydrogen VS Electric Cars</h3>
