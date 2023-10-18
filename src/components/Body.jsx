@@ -66,29 +66,29 @@ export default function Body (){
 
             <section>
                 <div className="flex mb-[3rem]">
-                    <img src={retroImg} alt="" />
-                    <div>
+                    <img src={retroImg} alt="" width={105}/>
+                    <div className="ml-6">
                         <h1 className="text-grayishBlue font-bold text-[2rem]">01</h1>
                         <h3 className="font-extrabold text-veryDarkBlue">Reviving Retro PCs</h3>
-                        <p>What happens when old PCs are given moderm upgrades?</p>
+                        <p className="text-darkGrayishBlue text-[0.92rem]">What happens when old PCs are given moderm upgrades?</p>
                     </div>
                 </div>
 
                 <div className="flex mb-[3rem]">
-                    <img src={laptopImg} alt="" />
-                    <div>
+                    <img src={laptopImg} alt="" width={105}/>
+                    <div className="ml-6">
                         <h1 className="text-grayishBlue font-bold text-[2rem]">02</h1>
                         <h3 className="font-extrabold text-veryDarkBlue">Top 10 Laptops of 2022</h3>
-                        <p>Our best picks for various needs and budgets.</p>
+                        <p className="text-darkGrayishBlue text-[0.92rem]">Our best picks for various needs and budgets.</p>
                     </div>
                 </div>
 
                 <div className="flex mb-[3rem]">
-                    <img src={gamingImg} alt="" />
-                    <div>
+                    <img src={gamingImg} alt="" width={105}/>
+                    <div className="ml-6">
                         <h1 className="text-grayishBlue font-bold text-[2rem]">03</h1>
                         <h3 className="font-extrabold text-veryDarkBlue">The Growth of Gaming</h3>
-                        <p>How the pandemic has sparked fresh opportunities.</p>
+                        <p className="text-darkGrayishBlue text-[0.92rem]">How the pandemic has sparked fresh opportunities.</p>
                     </div>
                 </div>
             </section>
