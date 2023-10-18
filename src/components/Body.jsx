@@ -10,7 +10,7 @@ export default function Body (){
 
     return(
         <div className="xl:w-[150vh]">
-            <section className="sm:flex">
+            <section className="mb-[4.5rem] sm:flex">
                 
                 <div className="flex flex-col items-center">
                     
@@ -65,7 +65,7 @@ export default function Body (){
             </section>
 
             <section>
-                <div>
+                <div className="flex mb-[3rem]">
                     <img src={retroImg} alt="" />
                     <div>
                         <h1>01</h1>
@@ -74,7 +74,7 @@ export default function Body (){
                     </div>
                 </div>
 
-                <div>
+                <div className="flex mb-[3rem]">
                     <img src={laptopImg} alt="" />
                     <div>
                         <h1>02</h1>
@@ -83,7 +83,7 @@ export default function Body (){
                     </div>
                 </div>
 
-                <div>
+                <div className="flex mb-[3rem]">
                     <img src={gamingImg} alt="" />
                     <div>
                         <h1>03</h1>
