@@ -22,12 +22,12 @@ export default function NavBar (){
         {screenWidth < 641?
                     <>{toggle?
                         <AiOutlineClose 
-                            className={`w-[2rem] h-[2rem]`}
+                            className={`z-10 w-[2rem] h-[2rem]`}
                             onClick={handleClicked}
                         />
                         :
                         <VscMenu 
-                            className={`w-[2rem] h-[2rem]`}
+                            className={` z-10 w-[2rem] h-[2rem]`}
                             onClick={handleClicked}
                         />
                     }  
@@ -42,8 +42,15 @@ export default function NavBar (){
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Categories</a></li>
             </ul>
         }
-        <div className="absolute bg-slate-500 h-[174vh] w-[16rem] -right-5">
-
+        
+        <div className="absolute bg-slate-500 h-[174vh] w-[16rem] -right-5 ">
+            <ul className=" text-darkGrayishBlue z-10">
+                <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
+                <li className="hover:text-softRed transition ease-in duration-150"><a href="">New</a></li>
+                <li className="hover:text-softRed transition ease-in duration-150"><a href="">Popular</a></li>
+                <li className="hover:text-softRed transition ease-in duration-150"><a href="">trending</a></li>
+                <li className="hover:text-softRed transition ease-in duration-150"><a href="">Categories</a></li>
+            </ul> 
         </div>
     </nav>    
     )
