@@ -38,25 +38,25 @@ export default function Body (){
                 </div>
 
                 
-                <div className="bg-veryDarkBlue mt-[4rem]">
-                    <h1 className="text-softOrange">New</h1>
+                <div className="bg-veryDarkBlue mt-[4rem] p-4 font-semibold">
+                    <h1 className="text-softOrange text-[2rem] font-semibold mb-6">New</h1>
                     <div>
-                        <h3 className="text-white">Hydrogen VS Electric Cars</h3>
-                        <p className="text-grayishBlue">
+                        <h3 className="text-white text-[1.36rem] mb-1">Hydrogen VS Electric Cars</h3>
+                        <p className="text-darkGrayishBlue font-medium">
                             Will hydrogen-fueled cars ever catch up to EVs?
                         </p>
                     </div>
-                    <hr />
+                    <hr className="border-none h-[0.01rem] bg-grayishBlue"/>
                     <div>
-                        <h3 className="text-white">The Downsides of AI Artistry</h3>
-                        <p className="text-darkGrayishBlue">
+                        <h3 className="text-white text-[1.36rem] mb-1">The Downsides of AI Artistry</h3>
+                        <p className="text-darkGrayishBlue font-medium">
                             What are the possible adverse effects of on-demand AI image generation?
                         </p>
                     </div>
-                    <hr />
+                    <hr className="border-none h-[0.01rem] bg-grayishBlue"/>
                     <div>
-                        <h3 className="text-white">Is VC Funding Drying Up?</h3>
-                        <p className="text-darkGrayishBlue">
+                        <h3 className="text-offWhite">Is VC Funding Drying Up?</h3>
+                        <p className="text-darkGrayishBlue font-medium">
                             Private funding by VC firms is down 50% YOY. We take a look at what that means.
                         </p>
                     </div>
