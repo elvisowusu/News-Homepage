@@ -32,7 +32,7 @@ export default function NavBar (){
         {screenWidth < 641?
                     <>{toggle?
                         <AiOutlineClose 
-                            className={`z-20 w-[2rem] h-[2rem]`}
+                            className={`z-20 w-[2rem] h-[2rem] fixed right-5`}
                             onClick={handleClicked}
                         />
                         :
@@ -55,7 +55,7 @@ export default function NavBar (){
 
         {toggle?
 
-        <div className="absolute bg-offWhite h-[174vh] flex justify-start items-center pl-5 w-[16rem] -right-5 z-10 shadow-2xl shadow-slate-700">
+        <div className="fixed bg-offWhite h-[174vh] flex justify-start items-center pl-5 w-[16rem] -right-5 z-10 shadow-2xl shadow-slate-700">
             <ul className=" text-veryDarkBlue mt-[27rem] font-semibold text-lg">
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150 mt-[1.2rem]"><a href="">New</a></li>
