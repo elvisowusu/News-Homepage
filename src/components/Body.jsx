@@ -21,12 +21,12 @@ export default function Body (){
 
                     <div className="sm:flex sm:justify-evenly mt-6">
                         
-                        <h1 className="font-extrabold text-veryDarkBlue text-[2.5rem] leading-[2.5rem]">
+                        <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] leading-[2.7rem]">
                             The Bright Future of Web 3.0?
                         </h1>
                         
                         <div className="mt-4">
-                            <p className="text-darkGrayishBlue text-[0.9rem] leading-[1.3rem]">
+                            <p className="text-darkGrayishBlue text-[1rem] leading-[1.6rem]">
                                 We dive into the next evolution of the web that 
                                 claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                             </p>
