@@ -46,12 +46,12 @@ export default function NavBar (){
         {toggle?
 
         <div className="absolute bg-offWhite h-[174vh] flex justify-start items-center pl-5 w-[16rem] -right-5 z-10">
-            <ul className=" text-veryDarkBlue bg-blue-400">
-                <li className="hover:text-softRed transition ease-in duration-150 "><a href="">Home</a></li>
-                <li className="hover:text-softRed transition ease-in duration-150"><a href="">New</a></li>
-                <li className="hover:text-softRed transition ease-in duration-150"><a href="">Popular</a></li>
-                <li className="hover:text-softRed transition ease-in duration-150"><a href="">trending</a></li>
-                <li className="hover:text-softRed transition ease-in duration-150"><a href="">Categories</a></li>
+            <ul className=" text-veryDarkBlue mt-[27rem] font-semibold text-lg">
+                <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
+                <li className="hover:text-softRed transition ease-in duration-150 mt-[1.2rem]"><a href="">New</a></li>
+                <li className="hover:text-softRed transition ease-in duration-150 mt-[1.2rem]"><a href="">Popular</a></li>
+                <li className="hover:text-softRed transition ease-in duration-150 mt-[1.2rem]"><a href="">trending</a></li>
+                <li className="hover:text-softRed transition ease-in duration-150 mt-[1.2rem]"><a href="">Categories</a></li>
             </ul> 
         </div>
         :''
