@@ -8,7 +8,7 @@ function App() {
   
 
   return (
-    <div className='sm:bg-pink-300 font-Inter md:h-[100vh] flex flex-col justify-center items-center p-5 pt-[2.2rem]'>
+    <div className='sm:bg-pink-300 md:bg-blue-300 lg:bg-green-400 font-Inter flex flex-col justify-center items-center p-5 sm:p-[5rem] pt-[2.2rem]'>
       <NavBar />
       <Body />
     </div>
