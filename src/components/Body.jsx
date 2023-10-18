@@ -30,7 +30,7 @@ export default function Body (){
                 <div className="flex flex-col items-center">
                     
                     <img 
-                        className="w-full" 
+                        className={`w-full sm:h-[20rem] md:h-auto`}
                         src={screenWidth < 640?mobileImg: desktopImg} alt="" 
                     />
 
