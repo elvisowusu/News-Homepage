@@ -68,9 +68,9 @@ export default function Body (){
                 <div className="flex mb-[3rem]">
                     <img src={retroImg} alt="" width={105}/>
                     <div className="ml-6">
-                        <h1 className="text-grayishBlue font-bold text-[2rem]">01</h1>
-                        <h3 className="font-extrabold text-veryDarkBlue text-[1.1rem]">Reviving Retro PCs</h3>
-                        <p className="text-darkGrayishBlue text-[0.92rem]">What happens when old PCs are given moderm upgrades?</p>
+                        <h1 className="text-grayishBlue font-bold text-[2rem] ">01</h1>
+                        <h3 className="font-extrabold text-veryDarkBlue text-[1.1rem] mb-2">Reviving Retro PCs</h3>
+                        <p className="text-darkGrayishBlue text-[0.92rem] leading-6">What happens when old PCs are given moderm upgrades?</p>
                     </div>
                 </div>
 
@@ -78,8 +78,8 @@ export default function Body (){
                     <img src={laptopImg} alt="" width={105}/>
                     <div className="ml-6">
                         <h1 className="text-grayishBlue font-bold text-[2rem]">02</h1>
-                        <h3 className="font-extrabold text-veryDarkBlue text-[1.1rem]">Top 10 Laptops of 2022</h3>
-                        <p className="text-darkGrayishBlue text-[0.92rem]">Our best picks for various needs and budgets.</p>
+                        <h3 className="font-extrabold text-veryDarkBlue text-[1.1rem] mb-2">Top 10 Laptops of 2022</h3>
+                        <p className="text-darkGrayishBlue text-[0.92rem] leading-6">Our best picks for various needs and budgets.</p>
                     </div>
                 </div>
 
@@ -87,8 +87,8 @@ export default function Body (){
                     <img src={gamingImg} alt="" width={105}/>
                     <div className="ml-6">
                         <h1 className="text-grayishBlue font-bold text-[2rem]">03</h1>
-                        <h3 className="font-extrabold text-veryDarkBlue text-[1.1rem]">The Growth of Gaming</h3>
-                        <p className="text-darkGrayishBlue text-[0.92rem]">How the pandemic has sparked fresh opportunities.</p>
+                        <h3 className="font-extrabold text-veryDarkBlue text-[1.1rem] mb-2">The Growth of Gaming</h3>
+                        <p className="text-darkGrayishBlue text-[0.92rem] ">How the pandemic has sparked fresh opportunities.</p>
                     </div>
                 </div>
             </section>
