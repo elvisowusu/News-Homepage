@@ -69,7 +69,7 @@ export default function Body (){
                     <img src={retroImg} alt="" />
                     <div>
                         <h1 className="text-grayishBlue font-bold text-[2rem]">01</h1>
-                        <h3>Reviving Retro PCs</h3>
+                        <h3 className="font-extrabold text-veryDarkBlue">Reviving Retro PCs</h3>
                         <p>What happens when old PCs are given moderm upgrades?</p>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ export default function Body (){
                     <img src={laptopImg} alt="" />
                     <div>
                         <h1 className="text-grayishBlue font-bold text-[2rem]">02</h1>
-                        <h3>Top 10 Laptops of 2022</h3>
+                        <h3 className="font-extrabold text-veryDarkBlue">Top 10 Laptops of 2022</h3>
                         <p>Our best picks for various needs and budgets.</p>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ export default function Body (){
                     <img src={gamingImg} alt="" />
                     <div>
                         <h1 className="text-grayishBlue font-bold text-[2rem]">03</h1>
-                        <h3>The Growth of Gaming</h3>
+                        <h3 className="font-extrabold text-veryDarkBlue">The Growth of Gaming</h3>
                         <p>How the pandemic has sparked fresh opportunities.</p>
                     </div>
                 </div>
