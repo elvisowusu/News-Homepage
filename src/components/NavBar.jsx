@@ -22,29 +22,31 @@ export default function NavBar (){
         {screenWidth < 641?
                     <>{toggle?
                         <AiOutlineClose 
-                            className={`z-10 w-[2rem] h-[2rem]`}
+                            className={`z-20 w-[2rem] h-[2rem]`}
                             onClick={handleClicked}
                         />
                         :
                         <VscMenu 
-                            className={` z-10 w-[2rem] h-[2rem]`}
+                            className={` z-20 w-[2rem] h-[2rem]`}
                             onClick={handleClicked}
                         />
                     }  
                     </>
             :
 
-            <ul className="flex items-center gap-10 text-darkGrayishBlue">
+            <><ul className="flex items-center gap-10 text-darkGrayishBlue">
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">New</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Popular</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">trending</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Categories</a></li>
-            </ul>
+            </ul></>
         }
 
-        <div className="absolute bg-offWhite h-[174vh] w-[16rem] -right-5 ">
-            <ul className=" text-darkGrayishBlue z-10">
+        {toggle?
+
+        <div className="absolute bg-offWhite h-[174vh] w-[16rem] -right-5 z-10">
+            <ul className=" text-veryDarkBlue bg-blue-400">
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">New</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Popular</a></li>
@@ -52,6 +54,8 @@ export default function NavBar (){
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Categories</a></li>
             </ul> 
         </div>
+        :''
+        }
     </nav>    
     )
 }
