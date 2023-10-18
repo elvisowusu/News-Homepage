@@ -53,22 +53,22 @@ export default function Body (){
                 </div>
 
                 
-                <div className="bg-veryDarkBlue mt-[4rem] md:mt-0 p-4 font-semibold ml-[1.2rem] md:w-[61rem]">
-                    <h1 className="text-softOrange text-[2rem] font-semibold mb-6">New</h1>
-                    <div className="mb-">
+                <div className="bg-veryDarkBlue mt-[4rem] md:mt-0 p-4 font-semibold md:ml-[1.2rem] md:w-[61rem]">
+                    <h1 className="text-softOrange text-[2rem] font-semibold mb-6 md:mb-4">New</h1>
+                    <div className="mb-7 md:mb-6">
                         <h3 className="text-offWhite transition ease-in duration-150 hover:text-softOrange cursor-pointer text-[1.36rem] mb-1">Hydrogen VS Electric Cars</h3>
                         <p className="text-darkGrayishBlue font-medium leading-[1.8rem]">
                             Will hydrogen-fueled cars ever catch up to EVs?
                         </p>
                     </div>
-                    <hr className="border-none h-[0.01rem] bg-grayishBlue mb-7"/>
-                    <div className="mb-7">
+                    <hr className="border-none h-[0.01rem] bg-grayishBlue mb-7 md:mb-6"/>
+                    <div className="mb-7 md:mb-6">
                         <h3 className="text-offWhite transition ease-in duration-150 hover:text-softOrange cursor-pointer  text-[1.36rem] mb-1">The Downsides of AI Artistry</h3>
                         <p className="text-darkGrayishBlue font-medium leading-[1.8rem]">
                             What are the possible adverse effects of on-demand AI image generation?
                         </p>
                     </div>
-                    <hr className="border-none h-[0.01rem] bg-grayishBlue mb-7"/>
+                    <hr className="border-none h-[0.01rem] bg-grayishBlue mb-7 md:mb-6"/>
                     <div className="mb-2">
                         <h3 className="text-offWhite transition ease-in duration-150 hover:text-softOrange cursor-pointer text-[1.36rem] mb-1 ">Is VC Funding Drying Up?</h3>
                         <p className="text-darkGrayishBlue font-medium leading-[1.8rem]">
