@@ -42,8 +42,8 @@ export default function NavBar (){
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Categories</a></li>
             </ul>
         }
-        
-        <div className="absolute bg-slate-500 h-[174vh] w-[16rem] -right-5 ">
+
+        <div className="absolute bg-offWhite h-[174vh] w-[16rem] -right-5 ">
             <ul className=" text-darkGrayishBlue z-10">
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">New</a></li>
