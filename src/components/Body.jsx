@@ -41,7 +41,7 @@ export default function Body (){
                         </h1>
                         
                         <div className="mt-4">
-                            <p className="text-darkGrayishBlue text-[0.95rem] leading-[1.6rem]">
+                            <p className="text-darkGrayishBlue text-[0.95rem] sm:text-[1.1rem] leading-[1.6rem]">
                                 We dive into the next evolution of the web that 
                                 claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                             </p>
