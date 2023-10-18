@@ -26,10 +26,11 @@ export default function Body (){
                         </h1>
                         
                         <div className="mt-4">
-                            <p>We dive into the next evolution of the web that 
-                             claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
+                            <p className="text-darkGrayishBlue text-[0.85rem] leading-[1.3rem]">
+                                We dive into the next evolution of the web that 
+                                claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                             </p>
-                            <button>
+                            <button className="bg-softRed text-offWhite text-xs font-bold w-[10.5rem] py-[0.7rem] mt-5 tracking-[0.2rem]">
                                 READ MORE
                             </button>
                         </div>
@@ -37,11 +38,11 @@ export default function Body (){
                 </div>
 
                 
-                <div className="bg-veryDarkBlue">
+                <div className="bg-veryDarkBlue mt-[4rem]">
                     <h1 className="text-softOrange">New</h1>
                     <div>
                         <h3 className="text-white">Hydrogen VS Electric Cars</h3>
-                        <p className="text-darkGrayishBlue">
+                        <p className="text-grayishBlue">
                             Will hydrogen-fueled cars ever catch up to EVs?
                         </p>
                     </div>
