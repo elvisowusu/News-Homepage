@@ -42,7 +42,7 @@ export default function NavBar (){
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Categories</a></li>
             </ul>
         }
-        <div className="absolute bg-slate-500 h-[170vh] w-[15.3rem] right-0">
+        <div className="absolute bg-slate-500 h-[170vh] w-[16rem] -right-5">
 
         </div>
     </nav>    
