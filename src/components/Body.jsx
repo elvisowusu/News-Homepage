@@ -66,11 +66,31 @@ export default function Body (){
 
             <section>
                 <div>
-                    <img src={laptopImg} alt="" />
-                    <div></div>
+                    <img src={retroImg} alt="" />
+                    <div>
+                        <h1>01</h1>
+                        <h3>Reviving Retro PCs</h3>
+                        <p>What happens when old PCs are given moderm upgrades?</p>
+                    </div>
                 </div>
-                <div></div>
-                <div></div>
+
+                <div>
+                    <img src={laptopImg} alt="" />
+                    <div>
+                        <h1>02</h1>
+                        <h3>Top 10 Laptops of 2022</h3>
+                        <p>Our best picks for various needs and budgets.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src={gamingImg} alt="" />
+                    <div>
+                        <h1>03</h1>
+                        <h3>The Growth of Gaming</h3>
+                        <p>How the pandemic has sparked fresh opportunities.</p>
+                    </div>
+                </div>
             </section>
         </div>
     )
