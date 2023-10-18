@@ -47,7 +47,7 @@ export default function NavBar (){
                     </>
             :
 
-            <ul className="flex items-center gap-10 text-darkGrayishBlue">
+            <ul className="flex items-center gap-10 sm:gap-5 text-darkGrayishBlue">
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">New</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Popular</a></li>
