@@ -58,7 +58,7 @@ export default function NavBar (){
 
         {toggle?
 
-        <div data-aos='fade-left' className="fixed bg-offWhite h-[188vh] flex justify-start items-center pl-8 w-[18rem] -right-5 z-10 shadow-2xl shadow-slate-700">
+        <div data-aos='fade-left' className="fixed bg-offWhite h-[188vh] flex justify-start items-center pl-6 w-[16rem] -right-5 z-10 shadow-2xl shadow-slate-700">
             <ul className=" text-veryDarkBlue mt-[27rem] font-semibold text-lg">
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150 mt-[1.2rem]"><a href="">New</a></li>
