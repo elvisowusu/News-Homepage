@@ -4,10 +4,13 @@ import mobileImg from '../assets/image-web-3-mobile.jpg'
 import gamingImg from '../assets/image-gaming-growth.jpg'
 import retroImg from '../assets/image-retro-pcs.jpg'
 import laptopImg from '../assets/image-top-laptops.jpg'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Body (){
     const [screenWidth,setScreenWidth]=useState(window.innerWidth);
     useEffect(()=>{
+        AOS.init();
         const handleResize =()=>{
             setScreenWidth(window.innerWidth);
         }

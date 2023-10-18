@@ -2,8 +2,7 @@ import React,{useEffect, useState} from "react";
 import logo from '../assets/logo.svg'
 import {VscMenu} from 'react-icons/vsc'
 import {AiOutlineClose} from 'react-icons/ai'
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 export default function NavBar (){
     const [screenWidth,setScreenWidth]=useState(window.innerWidth);
@@ -14,7 +13,6 @@ export default function NavBar (){
     }
 
     useEffect(()=>{
-        Aos.init();
         const handleResize =()=>{
             setScreenWidth(window.innerWidth);
         }
@@ -58,7 +56,7 @@ export default function NavBar (){
 
         {toggle?
 
-        <div data-aos="zoom-in-up" className="fixed bg-offWhite h-[188vh] flex justify-start items-center pl-5 w-[16rem] -right-5 z-10 shadow-2xl shadow-slate-700">
+        <div className="fixed bg-offWhite h-[188vh] flex justify-start items-center pl-5 w-[16rem] -right-5 z-10 shadow-2xl shadow-slate-700">
             <ul className=" text-veryDarkBlue mt-[27rem] font-semibold text-lg">
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150 mt-[1.2rem]"><a href="">New</a></li>
