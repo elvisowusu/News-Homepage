@@ -41,21 +41,21 @@ export default function Body (){
                 <div className="bg-veryDarkBlue mt-[4rem] p-4 font-semibold">
                     <h1 className="text-softOrange text-[2rem] font-semibold mb-6">New</h1>
                     <div className="mb-7">
-                        <h3 className="text-offWhite text-[1.36rem] mb-1">Hydrogen VS Electric Cars</h3>
+                        <h3 className="text-offWhite transition ease-in duration-150 hover:text-softOrange text-[1.36rem] mb-1">Hydrogen VS Electric Cars</h3>
                         <p className="text-darkGrayishBlue font-medium leading-[1.8rem]">
                             Will hydrogen-fueled cars ever catch up to EVs?
                         </p>
                     </div>
                     <hr className="border-none h-[0.01rem] bg-grayishBlue mb-7"/>
                     <div className="mb-7">
-                        <h3 className="text-offWhite text-[1.36rem] mb-1">The Downsides of AI Artistry</h3>
+                        <h3 className="text-offWhite transition ease-in duration-150 hover:text-softOrange  text-[1.36rem] mb-1">The Downsides of AI Artistry</h3>
                         <p className="text-darkGrayishBlue font-medium leading-[1.8rem]">
                             What are the possible adverse effects of on-demand AI image generation?
                         </p>
                     </div>
                     <hr className="border-none h-[0.01rem] bg-grayishBlue mb-7"/>
                     <div className="mb-2">
-                        <h3 className="text-offWhite text-[1.36rem] mb-1 ">Is VC Funding Drying Up?</h3>
+                        <h3 className="text-offWhite transition ease-in duration-150 hover:text-softOrange text-[1.36rem] mb-1 ">Is VC Funding Drying Up?</h3>
                         <p className="text-darkGrayishBlue font-medium leading-[1.8rem]">
                             Private funding by VC firms is down 50% YOY. We take a look at what that means.
                         </p>
