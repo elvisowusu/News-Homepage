@@ -12,7 +12,7 @@ export default function NavBar (){
     }
 
     return(
-    <nav className="flex items-center justify-between mb-8 w-full">
+    <nav className="relative flex items-center justify-between mb-8 w-full">
         <img 
             className="h-7"
             src={logo}
@@ -22,12 +22,12 @@ export default function NavBar (){
         {screenWidth < 641?
                     <>{toggle?
                         <AiOutlineClose 
-                            className="w-[2rem] h-[2rem]"
+                            className={`w-[2rem] h-[2rem]`}
                             onClick={handleClicked}
                         />
                         :
                         <VscMenu 
-                            className="w-[2rem] h-[2rem]"
+                            className={`w-[2rem] h-[2rem]`}
                             onClick={handleClicked}
                         />
                     }  
@@ -42,6 +42,9 @@ export default function NavBar (){
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Categories</a></li>
             </ul>
         }
+        <div className="absolute bg-slate-500 h-[190vh] w-[15.3rem] right-0">
+
+        </div>
     </nav>    
     )
 }
