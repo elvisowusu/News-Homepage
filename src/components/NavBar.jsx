@@ -23,7 +23,7 @@ export default function NavBar (){
                     <>{toggle?
                         <AiOutlineClose 
                             className="w-[2rem] h-[2rem]"
-                            
+                            onClick={handleClicked}
                         />
                         :
                         <VscMenu 
