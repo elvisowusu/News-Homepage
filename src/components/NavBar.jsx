@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useEffect, useState} from "react";
 import logo from '../assets/logo.svg'
 import {VscMenu} from 'react-icons/vsc'
 import {AiOutlineClose} from 'react-icons/ai'
@@ -11,6 +11,16 @@ export default function NavBar (){
         setToggle(!toggle);
     }
 
+    useEffect(()=>{
+        const handleResize =()=>{
+            setScreenWidth(window.innerWidth);
+        }
+        window.addEventListener('resize',handleResize);
+        return ()=>{
+            window.removeEventListener('resize',handleResize);
+        }
+        
+    })
     return(
     <nav className="relative flex items-center justify-between mb-8 w-full">
         <img 
