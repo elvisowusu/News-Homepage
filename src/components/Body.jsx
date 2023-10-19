@@ -24,7 +24,7 @@ export default function Body (){
     },[])// empty dependency runs the effect only once on mount and cleans up on unmount
 
     return(
-        <div className="md:w-[132vh] lg:w-[140vh] xl:w-[150vh] ">
+        <div className="md:w-[132vh] lg:w-[140vh] xl:w-[150vh]">
             <section className="mb-[4.5rem] md:flex">
                 
                 <div className="flex flex-col items-center">
