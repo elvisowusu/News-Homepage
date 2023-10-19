@@ -24,7 +24,7 @@ export default function Body (){
     },[])// empty dependency runs the effect only once on mount and cleans up on unmount
 
     return(
-        <div className="md:w-[132vh]">
+        <div className="md:w-[132vh] lg:w-[150vh] ">
             <section className="mb-[4.5rem] md:flex">
                 
                 <div className="flex flex-col items-center">
@@ -34,14 +34,14 @@ export default function Body (){
                         src={screenWidth < 640?mobileImg: desktopImg} alt="" 
                     />
 
-                    <div className="md:flex md:justify-between md:items-center mt-7 md:mt-5">
+                    <div className="md:flex md:justify-between md:gap-6 xl:gap-[5rem]  md:items-center mt-7 md:mt-5 xl:mt-9">
                         
-                        <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] sm:text-[3.3rem] md:text-[3.5rem] leading-[2.7rem] sm:leading-[3.8rem] md:leading-[2.7rem] md:w-[17rem]">
+                        <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] sm:text-[3.3rem] md:text-[3.1rem] xl:text-[4rem] leading-[2.7rem] sm:leading-[3.8rem] md:leading-[3.3rem] xl:leading-[3.7rem] md:w-[16.5rem] xl:w-[21rem]">
                             The Bright Future of Web 3.0?
                         </h1>
                         
-                        <div className="mt-4 md:mt-0 md:w-[18rem]">
-                            <p className="text-darkGrayishBlue text-[0.95rem] sm:text-[1.1rem] md:text-[0.95rem] leading-[1.6rem]">
+                        <div className="mt-4 md:mt-0 md:w-[17rem] xl:w-[25rem]">
+                            <p className="text-darkGrayishBlue text-[0.95rem] sm:text-[1.1rem] md:text-[0.8rem] xl:text-[1.1rem] leading-[1.6rem]">
                                 We dive into the next evolution of the web that 
                                 claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                             </p>
@@ -53,7 +53,7 @@ export default function Body (){
                 </div>
 
                 
-                <div className="bg-veryDarkBlue mt-[4rem] md:mt-0 p-4 font-semibold md:ml-[1.2rem] md:w-[61rem]">
+                <div className="bg-veryDarkBlue mt-[4rem] md:mt-0 p-4 font-semibold md:ml-[1.2rem] md:w-[61rem] xl:w-[49rem]">
                     <h1 className="text-softOrange text-[2rem] font-semibold mb-6 md:mb-4">New</h1>
                     <div className="mb-7 md:mb-6">
                         <h3 className="text-offWhite transition ease-in duration-150 hover:text-softOrange cursor-pointer text-[1.36rem] mb-1">Hydrogen VS Electric Cars</h3>
@@ -79,8 +79,8 @@ export default function Body (){
 
             </section>
 
-            <section>
-                <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem]">
+            <section className="md:flex xl:gap-[4.4rem]">
+                <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem] w-[22rem]">
                     <img src={retroImg} alt="" width={105}/>
                     <div className="ml-6">
                         <h1 className="text-grayishBlue font-bold text-[2rem] ">01</h1>
@@ -89,7 +89,7 @@ export default function Body (){
                     </div>
                 </div>
 
-                <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem]">
+                <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem] w-[22rem]">
                     <img src={laptopImg} alt="" width={105}/>
                     <div className="ml-6">
                         <h1 className="text-grayishBlue font-bold text-[2rem]">02</h1>
@@ -98,7 +98,7 @@ export default function Body (){
                     </div>
                 </div>
 
-                <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem]">
+                <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem] w-[22rem]">
                     <img src={gamingImg} alt="" width={105}/>
                     <div className="ml-6">
                         <h1 className="text-grayishBlue font-bold text-[2rem]">03</h1>
