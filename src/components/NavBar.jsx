@@ -25,7 +25,7 @@ export default function NavBar (){
         
     })
     return(
-    <nav className="relative flex items-center justify-between mb-8 xl:mb-11 w-full md:w-[132vh] lg:w-[146vh] xl:w-[150vh]">
+    <nav className="relative flex items-center justify-between mb-8 xl:mb-11 w-full md:w-[110vh] lg:w-[146vh] xl:w-[150vh]">
         {
             screenWidth<640?
         <div className="bg-white opacity-30 hover:opacity-40 fixed left-0 top-0 w-full h-[4rem]">
@@ -54,7 +54,7 @@ export default function NavBar (){
                     </>
             :
 
-            <ul className="flex items-center gap-5 md:gap-8 lg:gap-9  text-darkGrayishBlue">
+            <ul className="flex items-center gap-5 md:gap-9  text-darkGrayishBlue">
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">New</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Popular</a></li>

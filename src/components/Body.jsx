@@ -24,24 +24,24 @@ export default function Body (){
     },[])// empty dependency runs the effect only once on mount and cleans up on unmount
 
     return(
-        <div className="md:w-[132vh] lg:w-[146vh] xl:w-[150vh]">
+        <div className="md:w-[110vh] lg:w-[146vh] xl:w-[150vh]">
             <section className="mb-[4.5rem] md:flex">
                 
                 <div className="flex flex-col items-center">
                     
                     <img 
-                        className={`w-full sm:h-[20rem] md:h-[auto]`}
+                        className={`w-full sm:h-[20rem] md:h-[16rem] lg:h-auto`}
                         src={screenWidth < 640?mobileImg: desktopImg} alt="" 
                     />
 
                     <div className="md:flex md:justify-between md:gap-6 lg:gap-[3rem] xl:gap-[5rem]  md:items-center mt-7 md:mt-5 lg:mt-12 xl:mt-9">
                         
-                        <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] sm:text-[3.3rem] md:text-[3.1rem] lg:text-[3.7rem] xl:text-[4rem] leading-[2.7rem] sm:leading-[4rem] md:leading-[3.3rem] lg:leading-[3.6rem] xl:leading-[3.7rem] md:w-[16.5rem] lg:w-[19.5rem] xl:w-[21rem]">
+                        <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] sm:text-[3.3rem] md:text-[3rem] lg:text-[3.7rem] xl:text-[4rem] leading-[2.7rem] sm:leading-[4rem] md:leading-[3rem] lg:leading-[3.6rem] xl:leading-[3.7rem] md:w-[15rem] lg:w-[19.5rem] xl:w-[21rem]">
                             The Bright Future of Web 3.0?
                         </h1>
                         
-                        <div className="mt-4 md:mt-0 md:w-[17rem] lg:w-[23rem] xl:w-[24.3rem]">
-                            <p className="text-darkGrayishBlue text-[0.95rem] sm:text-[1.1rem] md:text-[0.8rem] lg:text-[1rem] xl:text-[1.1rem] leading-[1.6rem]">
+                        <div className="mt-4 md:mt-0 md:w-[14rem] lg:w-[23rem] xl:w-[24.3rem]">
+                            <p className="text-darkGrayishBlue text-[0.95rem] sm:text-[1.1rem] md:text-[0.9rem] lg:text-[1rem] xl:text-[1.1rem] leading-[1.6rem]">
                                 We dive into the next evolution of the web that 
                                 claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                             </p>
@@ -79,7 +79,7 @@ export default function Body (){
 
             </section>
 
-            <section className="md:flex lg:gap-[2.4rem] xl:gap-[4.4rem]">
+            <section className="md:grid md:grid-cols-2 md:gap-x-[9.9rem] lg:grid-cols-3 lg:gap-x-[2rem] xl:gap-x-[4.3rem]">
                 <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem] w-[22rem]">
                     <img src={retroImg} alt="" width={105}/>
                     <div className="ml-6">
