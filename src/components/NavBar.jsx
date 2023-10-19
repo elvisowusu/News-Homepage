@@ -57,8 +57,11 @@ export default function NavBar (){
         }
 
         {toggle?
+        <>
+        <div className="fixed left-0 top-0 w-full h-[188vh] bg-black opacity-40">
 
-        <div data-aos='fade-left' className="fixed bg-offWhite h-[188vh] flex justify-start items-center pl-6 w-[16rem] -right-5 z-10 shadow-2xl shadow-slate-700">
+        </div>
+        <div data-aos='fade-left' className="fixed bg-offWhite h-[188vh] flex justify-start items-center pl-6 w-[16rem] -right-5 z-10">
             <ul className=" text-veryDarkBlue mt-[27rem] font-semibold text-lg">
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150 mt-[1.2rem]"><a href="">New</a></li>
@@ -67,6 +70,7 @@ export default function NavBar (){
                 <li className="hover:text-softRed transition ease-in duration-150 mt-[1.2rem]"><a href="">Categories</a></li>
             </ul> 
         </div>
+        </>
         :''
         }
     </nav>    
