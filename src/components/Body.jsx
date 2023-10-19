@@ -40,7 +40,7 @@ export default function Body (){
                             The Bright Future of Web 3.0?
                         </h1>
                         
-                        <div className="mt-4 md:mt-0 md:w-[17rem] lg:w-[23rem] xl:w-[25rem]">
+                        <div className="mt-4 md:mt-0 md:w-[17rem] lg:w-[23rem] xl:w-[24.3rem]">
                             <p className="text-darkGrayishBlue text-[0.95rem] sm:text-[1.1rem] md:text-[0.8rem] lg:text-[1rem] xl:text-[1.1rem] leading-[1.6rem]">
                                 We dive into the next evolution of the web that 
                                 claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?

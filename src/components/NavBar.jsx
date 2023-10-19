@@ -25,7 +25,7 @@ export default function NavBar (){
         
     })
     return(
-    <nav className="relative flex items-center justify-between mb-8 xl:mb-11 w-full md:w-[132vh] xl:w-[150vh]">
+    <nav className="relative flex items-center justify-between mb-8 xl:mb-11 w-full md:w-[132vh] lg:w-[140vh] xl:w-[150vh]">
         <img 
             className="h-7 xl:h-9"
             src={logo}
@@ -47,7 +47,7 @@ export default function NavBar (){
                     </>
             :
 
-            <ul className="flex items-center gap-5 md:gap-8 xl:gap-9 text-darkGrayishBlue">
+            <ul className="flex items-center gap-5 md:gap-8 lg:gap-9  text-darkGrayishBlue">
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Home</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">New</a></li>
                 <li className="hover:text-softRed transition ease-in duration-150"><a href="">Popular</a></li>
