@@ -26,8 +26,15 @@ export default function NavBar (){
     })
     return(
     <nav className="relative flex items-center justify-between mb-8 xl:mb-11 w-full md:w-[132vh] lg:w-[140vh] xl:w-[150vh]">
+        {
+            screenWidth<640?
+        <div className="bg-red-400 fixed left-0 top-0 w-full h-[4rem]">
+        
+        </div>
+        :''
+        }
         <img 
-            className="h-7 xl:h-9"
+            className="h-7 xl:h-9 fixed sm:relative"
             src={logo}
             alt="logo"
         />
@@ -40,7 +47,7 @@ export default function NavBar (){
                         />
                         :
                         <VscMenu 
-                            className={` z-20 w-[2rem] h-[2rem]`}
+                            className={` z-20 w-[2rem] h-[2rem] fixed sm:relative right-5`}
                             onClick={handleClicked}
                         />
                     }  
