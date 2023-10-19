@@ -25,7 +25,7 @@ export default function NavBar (){
         
     })
     return(
-    <nav className="relative flex items-center justify-between mb-8 xl:mb-11 w-full md:w-[132vh] lg:w-[140vh] xl:w-[150vh]">
+    <nav className="relative flex items-center justify-between mb-8 xl:mb-11 w-full md:w-[132vh] lg:w-[146vh] xl:w-[150vh]">
         {
             screenWidth<640?
         <div className="bg-white opacity-30 hover:opacity-40 fixed left-0 top-0 w-full h-[4rem]">

@@ -24,7 +24,7 @@ export default function Body (){
     },[])// empty dependency runs the effect only once on mount and cleans up on unmount
 
     return(
-        <div className="md:w-[132vh] lg:w-[140vh] xl:w-[150vh]">
+        <div className="md:w-[132vh] lg:w-[146vh] xl:w-[150vh]">
             <section className="mb-[4.5rem] md:flex">
                 
                 <div className="flex flex-col items-center">
@@ -53,7 +53,7 @@ export default function Body (){
                 </div>
 
                 
-                <div className="bg-veryDarkBlue mt-[4rem] md:mt-0 p-4 font-semibold md:ml-[1.2rem] md:w-[61rem] xl:w-[49rem]">
+                <div className="bg-veryDarkBlue mt-[4rem] md:mt-0 p-4 font-semibold md:ml-[1.2rem] md:w-[61rem] lg:w-[40rem]">
                     <h1 className="text-softOrange text-[2rem] font-semibold mb-6 md:mb-4">New</h1>
                     <div className="mb-7 md:mb-6">
                         <h3 className="text-offWhite transition ease-in duration-150 hover:text-softOrange cursor-pointer text-[1.36rem] mb-1">Hydrogen VS Electric Cars</h3>
@@ -79,7 +79,7 @@ export default function Body (){
 
             </section>
 
-            <section className="md:flex lg:gap-[1rem] xl:gap-[4.4rem]">
+            <section className="md:flex lg:gap-[2.4rem] xl:gap-[4.4rem]">
                 <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem] w-[22rem]">
                     <img src={retroImg} alt="" width={105}/>
                     <div className="ml-6">
