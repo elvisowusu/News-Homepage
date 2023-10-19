@@ -24,7 +24,7 @@ export default function Body (){
     },[])// empty dependency runs the effect only once on mount and cleans up on unmount
 
     return(
-        <div className="md:w-[132vh] lg:w-[150vh] ">
+        <div className="md:w-[132vh] lg:w-[140vh] xl:w-[150vh] ">
             <section className="mb-[4.5rem] md:flex">
                 
                 <div className="flex flex-col items-center">
@@ -34,18 +34,18 @@ export default function Body (){
                         src={screenWidth < 640?mobileImg: desktopImg} alt="" 
                     />
 
-                    <div className="md:flex md:justify-between md:gap-6 xl:gap-[5rem]  md:items-center mt-7 md:mt-5 xl:mt-9">
+                    <div className="md:flex md:justify-between md:gap-6 lg:gap-[3rem] xl:gap-[5rem]  md:items-center mt-7 md:mt-5 lg:mt-12 xl:mt-9">
                         
-                        <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] sm:text-[3.3rem] md:text-[3.1rem] xl:text-[4rem] leading-[2.7rem] sm:leading-[3.8rem] md:leading-[3.3rem] xl:leading-[3.7rem] md:w-[16.5rem] xl:w-[21rem]">
+                        <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] sm:text-[3.3rem] md:text-[3.1rem] lg:text-[3.7rem] xl:text-[4rem] leading-[2.7rem] sm:leading-[4rem] md:leading-[3.3rem] lg:leading-[3.6rem] xl:leading-[3.7rem] md:w-[16.5rem] lg:w-[19.5rem] xl:w-[21rem]">
                             The Bright Future of Web 3.0?
                         </h1>
                         
-                        <div className="mt-4 md:mt-0 md:w-[17rem] xl:w-[25rem]">
-                            <p className="text-darkGrayishBlue text-[0.95rem] sm:text-[1.1rem] md:text-[0.8rem] xl:text-[1.1rem] leading-[1.6rem]">
+                        <div className="mt-4 md:mt-0 md:w-[17rem] lg:w-[23rem] xl:w-[25rem]">
+                            <p className="text-darkGrayishBlue text-[0.95rem] sm:text-[1.1rem] md:text-[0.8rem] lg:text-[1rem] xl:text-[1.1rem] leading-[1.6rem]">
                                 We dive into the next evolution of the web that 
                                 claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
                             </p>
-                            <button className="bg-softRed hover:bg-veryDarkBlue text-offWhite text-xs font-bold w-[11.5rem] py-[1.2rem] mt-6 tracking-[0.4rem]">
+                            <button className="bg-softRed hover:bg-veryDarkBlue text-offWhite text-xs font-bold w-[11.5rem] py-[1.2rem] mt-6 lg:mt-10 tracking-[0.4rem]">
                                 READ MORE
                             </button>
                         </div>
@@ -79,7 +79,7 @@ export default function Body (){
 
             </section>
 
-            <section className="md:flex xl:gap-[4.4rem]">
+            <section className="md:flex lg:gap-[1rem] xl:gap-[4.4rem]">
                 <div data-aos='fade-up' data-aos-duration='900' className="flex mb-[3rem] w-[22rem]">
                     <img src={retroImg} alt="" width={105}/>
                     <div className="ml-6">

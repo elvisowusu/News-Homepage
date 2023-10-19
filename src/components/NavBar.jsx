@@ -25,7 +25,7 @@ export default function NavBar (){
         
     })
     return(
-    <nav className="relative flex items-center justify-between mb-8 xl:mb-11 w-full md:w-[132vh] lg:w-[150vh]">
+    <nav className="relative flex items-center justify-between mb-8 xl:mb-11 w-full md:w-[132vh] xl:w-[150vh]">
         <img 
             className="h-7 xl:h-9"
             src={logo}
