@@ -34,7 +34,7 @@ export default function Body (){
                         src={screenWidth < 640?mobileImg: desktopImg} alt="" 
                     />
 
-                    <div className="md:flex md:justify-between md:gap-6 lg:gap-[3rem] xl:gap-[5rem]  md:items-center mt-7 md:mt-5 lg:mt-12 xl:mt-9">
+                    <div className="md:flex md:justify-between md:gap-6 lg:gap-[3rem] xl:gap-[5rem]  md:items-center mt-7 md:mt-5 lg:mt-12 xl:mt-4">
                         
                         <h1 className="font-extrabold text-veryDarkBlue text-[2.8rem] sm:text-[3.3rem] md:text-[3rem] lg:text-[3.7rem] xl:text-[4rem] leading-[2.7rem] sm:leading-[4rem] md:leading-[3rem] lg:leading-[3.6rem] xl:leading-[3.7rem] md:w-[15rem] lg:w-[19.5rem] xl:w-[21rem]">
                             The Bright Future of Web 3.0?
