@@ -34,7 +34,7 @@ export default function NavBar (){
         :''
         }
         <img 
-            className="h-7 xl:h-9 fixed sm:relative z-50"
+            className="h-7 xl:h-9 fixed sm:relative z-50 cursor-pointer"
             src={logo}
             alt="logo"
         />
@@ -42,12 +42,12 @@ export default function NavBar (){
         {screenWidth < 640?
                     <>{toggle?
                         <AiOutlineClose 
-                            className={`z-20 w-[2rem] h-[2rem] fixed right-5`}
+                            className={`z-20 w-[2rem] h-[2rem] fixed right-5 cursor-pointer`}
                             onClick={handleClicked}
                         />
                         :
                         <VscMenu 
-                            className={` z-20 w-[2rem] h-[2rem] fixed sm:relative right-5`}
+                            className={` z-20 w-[2rem] h-[2rem] fixed sm:relative right-5 cursor-pointer`}
                             onClick={handleClicked}
                         />
                     }  
